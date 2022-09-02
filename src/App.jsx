@@ -66,7 +66,7 @@ function App() {
 
   return (
     <div className="container mx-auto mt-6">
-      <h1 className="text-4xl">Magic Match Game</h1>
+      <h1 className="text-4xl">Magic Memory Game</h1>
       <p className="text-sm mb-4">
         A simple memory game developed with React js + Tailwind css
       </p>
