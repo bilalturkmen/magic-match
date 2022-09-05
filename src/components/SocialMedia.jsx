@@ -1,6 +1,10 @@
 export default function SocialMedia() {
   return (
     <>
+      <p className="text-xs font-extralight tracking-wider">
+        Based on Shaun Pelling's React js course.<br></br> Developed by Bilal
+        Türkmen
+      </p>
       <div className="flex justify-center items-center gap-4 my-3">
         <div className="flex gap-4">
           <a
@@ -55,19 +59,6 @@ export default function SocialMedia() {
           </a>
         </div>
       </div>
-      <p className="text-xs font-extralight tracking-wider">
-        Developed by Bilal Türkmen
-        <br></br>
-        Based on{" "}
-        <a
-          href="https://www.youtube.com/c/TheNetNinja"
-          target="_blank"
-          className="underline"
-        >
-          Shaun Pelling's
-        </a>{" "}
-        React js course.
-      </p>
     </>
   );
 }
