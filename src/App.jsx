@@ -73,7 +73,7 @@ function App() {
       </p>
       <button type="button" className="btn-primary" onClick={shuffleCards}>
         New Game
-      </button>{" "}
+      </button>
       <p className="text-base">Turns: {turns}</p>
       <div className="grid gap-4 grid-cols-4 p-6">
         {cards.map((card) => (

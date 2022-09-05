@@ -58,7 +58,15 @@ export default function SocialMedia() {
       <p className="text-xs font-extralight tracking-wider">
         Developed by Bilal Türkmen
         <br></br>
-        Based on Shaun Pelling's React js course at Udemy.
+        Based on{" "}
+        <a
+          href="https://www.youtube.com/c/TheNetNinja"
+          target="_blank"
+          className="underline"
+        >
+          Shaun Pelling's
+        </a>{" "}
+        React js course.
       </p>
     </>
   );
